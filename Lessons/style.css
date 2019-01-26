@@ -1,0 +1,96 @@
+/*****************************Selector*****************************/
+body {
+  background-color: powderblue;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  padding-left: 10px;
+}
+p {
+  padding-left: 20px;
+}
+
+nav {
+  text-align: center;
+  background-color: #9ec9cf;
+}
+ol {
+  line-height: 2;
+}
+table {
+  text-align: left;
+padding: 0 10px 0 10px;
+margin-left: 35%;
+}
+td {
+  padding: 0 10px 0 10px;
+}
+button {
+  margin-bottom: 10px;
+}
+
+
+/*****************************Classes*****************************/
+.end {
+  text-align: center;
+  background-color: #9ec9cf;
+}
+
+.table-example {
+  text-align: center;
+}
+
+.top {
+  text-align: center;
+  background-color: #9ec9cf;
+}
+
+.lessons {
+  padding: 0 25px 0 25px;
+}
+
+.image {
+  height: 120px;
+  border-radius: 100%;
+}
+
+.image:hover {
+  -webkit-animation: rotation .2s linear;
+  border-radius: 100%;
+  height: 120px;
+  content: url('images/WhiteLogo2.jpg');
+}
+
+.footer-link-img {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.footer-link {}
+
+.examples {
+  text-align: center;
+}
+
+/*****************************IDs*****************************/
+#footer-link-logo {
+  border-radius: 20%;
+}
+
+#footer-copyright {
+  margin-top: 5px;
+}
+
+/*****************************Weird @ Thingy*****************************/
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }

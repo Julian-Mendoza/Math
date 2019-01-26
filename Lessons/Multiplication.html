@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--imports-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <title>Multiplication</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/Logo2.jpg">
+</head>
+
+<body>
+  <!--Header-->
+  <div class="top">
+    <a href="/index.html"><img class="image" src="images/Logo2.jpg" alt="J and J Logo"></a>
+  </div>
+
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+      <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link" href="file:///Users/julianmendoza/Code/HTML/My%20Own/Math%20webpage/index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="Basic.html">Basics</a></li>
+        <li><a class="nav-link" href="Addition.html">Addition</a></li>
+        <li><a class="nav-link" href="Multiplication.html">Multiplication</a></li>
+        <li><a class="nav-link" href="Division.html">Division</a></li>
+        <li><a class="nav-link" href="Squares.html">Squares</a></li>
+        <li><a class="nav-link" href="Square-Roots.html">Square Roots</a></li>
+        <li><a class="nav-link" href="Fractions.html">Fractions</a></li>
+        <li><a class="nav-link" href="Factoring.html">Factoring</a></li>
+        <li><a class="nav-link" href="Graphing.html">Graphing</a></li>
+        <li><a class="nav-link" href="Pascales-Triangle.html">Pascales Triangle</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!--Body-->
+  <!--1.1-->
+  <div style="background-color: powderblue;" class="lessons">
+    <h1>Multiplication</h1>
+    <h2>1 Numerical Tricks</h2>
+    <h3>1.1 Introduction: FOILing/LIOFing When Multiplying</h3>
+    <p>Multiplication is at the heart of every Number Sense test. Slow multiplication hampers how far you are able
+      to go on the test as well as making you prone to making more errors. To help beginners learn how to speed
+      up multiplying, the concept of <strong>FOIL</strong>ing, learned in beginning algebra classes, is introduced as well as some
+      exercises to help in speeding up multiplication. What is nice about the basic multiplication exercises is that
+      anyone can make up problems, so practice is unbounded.</p>
+    <br>
+    <p>When multiplying two two-digit numbers <em>ab</em> and <em>cd</em> swiftly, a method of <strong>FOIL</strong>ing { or more accurately named
+      <strong>LIOF</strong>ing (Last-Inner+Outer-First) { is used. To understand this concept better, lets take a look at what we
+      do when we multiply <em>ab</em><span>&#215;</span><em>cd</em>:</p>
+
+    <!--Examples-->
+    <p class="examples"><em>ab</em> = 10<em>a</em> + <em>b</em> and <em>cd</em> = 10<em>c</em> + <em>d</em> </p>
+    <p class="examples">(10<em>a</em>+<em>b</em>) (10<em>c</em>+<em>d</em>) = 100(<em>ac</em>) + 10(<em>ad</em>+<em>bc</em>) +<em>bd</em></p>
+    <!--Reason-->
+    <p>A couple of things can be seen by this:
+      <ol>
+        <li>The one's digit of the answer is simply bd or the Last digits (by Last I mean the least signicant digit)
+          of the two numbers multiplied.</li>
+        <li>The ten's digit of the answer is (ad+bc) which is the sum of the Inner digits multiplied together plus
+          the Outer digits multiplied.</li>
+        <li>he hundred's digit is ac which are the First digits (again, by First I mean the most signicant digit)
+          multiplied with each other.</li>
+        <li>If in each step you get more than a single digit, you carry the extra (most signicant digit) to the next
+          calculation. For example:</li>
+      </ol>
+    </p>
+    <!--table example-->
+    <div class="table-example">
+      <table>
+        <tr>
+          <td></td>
+          <td>Ones:</td>
+          <td>3<span>&#215;</span>4=<em>1</em><strong>2</strong></td>
+        </tr>
+        <tr>
+          <td>74<span>&#215;</span>23=</td>
+          <td>Tens:</td>
+          <td>3<span>&#215;</span>7+2<span>&#215;</span>4+<em>1</em>=<em>3</em><strong>0</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Hundreds:</td>
+          <td>2<span>&#215;</span>7+<em>3</em>=<strong>17</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Answer:</td>
+          <td><strong>1702</strong></td>
+        </tr>
+      </table>
+      <p>Where the bold represents the answer and the italicized represents the carry.</p>
+      <button type="button" class="btn btn-outline-secondary btn-lg"><i class="fas fa-download"></i>Worksheet</button>
+    </div>
+  </div>
+
+
+
+  <!--1.2-->
+  <div class="lessons" style="background-color: white;">
+    <h2>1.2 Multiplying: The Basics</h2>
+    <h3>1.2.1 Multiplying by 11 Trick</h3>
+    <p>The simplest multiplication trick is the 11's trick. It is a mundane version of \moving down the line," where
+      you add consecutive digits and record the answer. Here is an example:</p>
+    <div class="table-example">
+      <table>
+        <tr>
+          <td></td>
+          <td>Ones:</td>
+          <td>1<span>&#215;</span>3=<strong>3</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Tens:</td>
+          <td>1<span>&#215;</span>2+1<span>&#215;</span>3=<strong>5</strong></td>
+        </tr>
+        <tr>
+          <td>523<span>&#215;</span>11=</td>
+          <td>Hundreds:</td>
+          <td>1<span>&#215;</span>5+1<span>&#215;</span>2=<strong>7</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Thousands:</td>
+          <td>1<span>&#215;</span>5=<strong>5</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Answer:</td>
+          <td><strong>5753</strong></td>
+        </tr>
+      </table>
+      <p>As one can see, the result can be obtained by subsequently adding the digits along the number you're
+        multiplying. Be sure to keep track of the carries as well:</p>
+      <table>
+        <tr>
+          <td></td>
+          <td>Ones:</td>
+          <td><strong>8</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Tens:</td>
+          <td>9+8=<em>1</em><strong>7</strong></td>
+        </tr>
+        <tr>
+          <td>6798<span>&#215;</span>11=</td>
+          <td>Hundreds:</td>
+          <td>7+9+<em>1</em>=<em>1</em><strong>7</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Thousands:</td>
+          <td>6+7+<em>1</em>=<em>1</em><strong>4</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ten Thousands:</td>
+          <td>6+5+<em>1</em>=<em>1</em><strong>2</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Answer:</td>
+          <td><strong>74778</strong></td>
+        </tr>
+      </table>
+      <p>The trick can also be extended to 111 or 1111 (and so on). Where as in the 11's trick you are adding pairs
+        of digits "down the line," for 111 you will be adding triples:</p>
+      <table>
+        <tr>
+          <td></td>
+          <td>Ones:</td>
+          <td><strong>3</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Tens:</td>
+          <td>4+3=<strong>7</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Hundreds:</td>
+          <td>5+4+3=<em>1</em><strong>2</strong></td>
+        </tr>
+        <tr>
+          <td>6543<span>&#215;</span>111=</td>
+          <td>Thousands:</td>
+          <td>6+5+4+<em>1</em>=<em>1</em><strong>6</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ten Thousands:</td>
+          <td>6+5+<em>1</em>=<em>1</em><strong>2</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Hun. Thousands:</td>
+          <td>6+<em>1</em>=<strong>7</strong></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Answer:</td>
+          <td><strong>726273</strong></td>
+        </tr>
+      </table>
+      <p>The hardest part of the procedure is knowing when to stop. The easiest way I've found is to think about
+        how many digits the answer should have. For example, with the above expression, we are dividing a 5-digit
+        number by a roughly 100, leaving an answer which should be 3-digits, so after the third-digit you know you
+        8
+        are done.</p>
+      <button type="button" class="btn btn-outline-dark btn-lg"><i class="fas fa-download"></i>Worksheet</button>
+    </div>
+  </div>
+
+
+
+
+  <div style="background-color: powderblue;" class="lessons">
+<h3>1.2.2 Multiplying by 101 Trick</h3>
+<p>In the same spirit as the multiplying by 11's trick, multiplying by 101 involves adding gap connected digits.
+Let's look at an example:</p>
+<table>
+<tr>
+  <td></td>
+<td>Ones:</td>
+<td>1<span>&#215;</span>8</td>
+<td><strong>8</strong></td>
+</tr>
+<tr>
+  <td></td>
+  <td>Tens:</td>
+<td>1<span>&#215;</span>3</td>
+  <td><strong>3</strong></td>
+</tr>
+<tr>
+<td>438<span>&#215;</span>101</td>
+<td>Hundreds:</td>
+<td>1<span>&#215;</span>4+1<span>&#215;</span>8</td>
+  <td><em>1</em><strong>2</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Thousands:</td>
+<td>1<span>&#215;</span>3+<em>1</em></td>
+  <td>4</td>
+</tr>
+<tr>
+<td></td>
+<td>Ten Thousands:</td>
+  <td>1<span>&#215;</span>4</td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+  <td></td>
+<td>Answer:</td>
+  <td><strong>44238</strong></td>
+</tr>
+</table>
+<p>So you see, immediately you can write down the ones/tens digits (they are the same as what you are
+multiplying 101 with). Then you sum gap digits and move down the line. Let's look at another example:</p>
+
+  </div>
+
+    <!--Footer -->
+    <div class="end">
+      <a class="footer-link" href="https://www.linkedin.com/in/julian-mendoza/"><img class="footer-link-img" src="images/linkedin.png" alt="Linkedin"></a>
+      <a class="footer-link" href="https://www.instagram.com/_julianmendoza_/?hl=en"><img class="footer-link-img" src="images/insta.png" alt="instagram"></a>
+      <a class="footer-link" href="https://julian-mendoza.github.io/Personal-Site/"><img class="footer-link-img" ID="footer-link-logo" src="images/logo2.jpg" alt="Website"></a>
+      <p ID="footer-copyright">© 2019 Julian Mendoza.</p>
+    </div>
+</body>
+
+</html>
