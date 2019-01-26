@@ -1,0 +1,89 @@
+/*****************************Selector*****************************/
+a {
+  margin: auto 2px auto 2px;
+  text-decoration: none;
+  color: #007289;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FE4343
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0 auto auto auto;
+}
+
+/*****************************Classes*****************************/
+.bottom {
+  width: 100%;
+  height: 800px;
+}
+
+.end {
+  background-color: #CACACB;
+  height: 90px;
+}
+
+.image {
+  height: 120px;
+  border-radius: 100%;
+}
+.image:hover {
+  -webkit-animation: rotation .2s linear;
+}
+
+.list {
+  font-size: 2em;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.middle {
+  width: 100%;
+  height: 800px;
+  background-color: powderblue;
+}
+
+.top {
+  background-color: #9ec9cf;
+}
+
+.footer-link-img {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.footer-link {
+  margin-bottom: 0;
+}
+
+/*****************************IDs*****************************/
+#footer-link-logo {
+  border-radius: 20%;
+}
+
+#footer-copyright {
+  margin-top: 5px;
+}
+
+/*****************************Weird @ Things*****************************/
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
