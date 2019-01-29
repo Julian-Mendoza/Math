@@ -1,38 +1,54 @@
-/*****************************Selector*****************************/
+a {
+  text-align: center;
+  margin: auto 2px auto 2px;
+  text-decoration: none;
+  color: #007289;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FE4343
+}
 body {
-  background-color: powderblue;
+  text-align: center;
+  background-color: #9ec9cf;
   margin: 0;
+}
+
+button {
+  margin-bottom: 10px;
 }
 
 h1 {
   text-align: center;
 }
+
 h3 {
   padding-left: 10px;
-}
-p {
-  padding-left: 20px;
 }
 
 nav {
   text-align: center;
   background-color: #9ec9cf;
 }
+
 ol {
   line-height: 2;
 }
+
+p {
+  padding-left: 20px;
+}
+
 table {
   text-align: left;
-padding: 0 10px 0 10px;
-margin-left: 35%;
+  padding: 0 10px 0 10px;
+  margin-left: 35%;
 }
+
 td {
   padding: 0 10px 0 10px;
 }
-button {
-  margin-bottom: 10px;
-}
-
 
 /*****************************Classes*****************************/
 .end {
@@ -40,17 +56,13 @@ button {
   background-color: #9ec9cf;
 }
 
-.table-example {
+.examples {
   text-align: center;
 }
 
-.top {
-  text-align: center;
-  background-color: #9ec9cf;
-}
-
-.lessons {
-  padding: 0 25px 0 25px;
+.footer-link-img {
+  height: 30px;
+  margin-top: 15px;
 }
 
 .image {
@@ -65,24 +77,26 @@ button {
   content: url('images/WhiteLogo2.jpg');
 }
 
-.footer-link-img {
-  height: 30px;
-  margin-top: 15px;
+.lessons {
+  padding: 0 25px 0 25px;
 }
 
-.footer-link {}
-
-.examples {
+.table-example {
   text-align: center;
 }
 
-/*****************************IDs*****************************/
-#footer-link-logo {
-  border-radius: 20%;
+.top {
+  text-align: center;
+  background-color: #9ec9cf;
 }
 
+/*****************************IDs*****************************/
 #footer-copyright {
   margin-top: 5px;
+}
+
+#footer-link-logo {
+  border-radius: 20%;
 }
 
 /*****************************Weird @ Thingy*****************************/
@@ -94,3 +108,4 @@ button {
   to {
     -webkit-transform: rotate(359deg);
   }
+}

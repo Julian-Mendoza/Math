@@ -1,5 +1,6 @@
 /*****************************Selector*****************************/
 a {
+  text-align: center;
   margin: auto 2px auto 2px;
   text-decoration: none;
   color: #007289;
@@ -13,6 +14,7 @@ a:hover {
 body {
   text-align: center;
   margin: 0;
+  background-color: #9ec9cf;
 }
 
 div {
@@ -26,23 +28,27 @@ h1 {
 
 /*****************************Classes*****************************/
 .bottom {
+  background-color: white;
   width: 100%;
   height: 800px;
 }
+.footer-link {
+  margin-bottom: 0;
+}
 
-.end {
-  background-color: #9ec9cf;
-  height: 90px;
+.footer-link-img {
+  height: 30px;
+  margin-top: 50px;
 }
 
 .image {
   height: 120px;
   border-radius: 100%;
 }
+
 .image:hover {
   -webkit-animation: rotation .2s linear;
 }
-
 .list {
   font-size: 2em;
   text-align: left;
@@ -50,40 +56,30 @@ h1 {
   width: 50%;
   line-height: 2;
 }
-
 .middle {
   width: 100%;
   height: 800px;
   background-color: powderblue;
 }
-
 .top {
   background-color: #9ec9cf;
 }
 
-.footer-link-img {
-  height: 30px;
-  margin-top: 15px;
-}
-
-.footer-link {
-  margin-bottom: 0;
-}
-
 /*****************************IDs*****************************/
-#footer-link-logo {
-  border-radius: 20%;
-}
-
 #footer-copyright {
   margin-top: 5px;
 }
 
+#footer-link-logo {
+  border-radius: 20%;
+}
+
 /*****************************Weird @ Things*****************************/
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
