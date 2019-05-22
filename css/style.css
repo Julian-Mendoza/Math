@@ -38,7 +38,7 @@ h1 {
 
 .footer-link-img {
   height: 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .image {
@@ -65,6 +65,10 @@ h1 {
   background-color: #9ec9cf;
 }
 
+.footer-btn {
+  margin-top: 60px;
+}
+
 /*****************************IDs*****************************/
 #footer-copyright {
   margin-top: 5px;
@@ -74,6 +78,9 @@ h1 {
   border-radius: 20%;
 }
 
+#webcreated {
+  margin-top: 15px;
+}
 /*****************************Weird @ Things*****************************/
 @-webkit-keyframes rotation {
   from {
@@ -83,3 +90,53 @@ h1 {
   to {
     -webkit-transform: rotate(359deg);
   }
+}
+
+@media screen and (max-width: 980px) {
+  .top {
+    height: 11.25rem;
+  }
+
+  .image {
+    margin-top: 10px;
+    height: 10rem;
+  }
+
+  .middle {
+    height: 82rem;
+  }
+
+.bottom {
+  height: 42rem;
+}
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  a {
+    font-size: 3.5rem;
+  }
+
+  #webcreated {
+    font-size: 2rem;
+  }
+
+  #footer-copyright {
+    font-size: 2rem;
+  }
+
+  .footer-link-img {
+    height: 3rem;
+    margin-left: 2%;
+    /* margin-top: 50px; */
+  }
+
+.footer-btn {
+  margin-top: 40px;
+}
+
+.footer-row {
+  background-color: #9ec9cf;
+  height: 460px;
+}
+}

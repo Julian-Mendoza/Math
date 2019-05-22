@@ -9,6 +9,7 @@ a:hover {
   text-decoration: underline;
   color: #FE4343
 }
+
 body {
   text-align: center;
   background-color: #9ec9cf;
@@ -91,8 +92,9 @@ td {
 }
 
 /*****************************IDs*****************************/
-#footer-copyright {
+.footer-copyright {
   margin-top: 5px;
+  font-size: 1.2rem;
 }
 
 #footer-link-logo {
@@ -108,4 +110,72 @@ td {
   to {
     -webkit-transform: rotate(359deg);
   }
+}
+
+@media screen and (max-width: 980px) {
+  .top {
+    height: 11.25rem;
+  }
+
+  .image {
+    margin-top: 10px;
+    height: 10rem;
+  }
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem
+}
+
+a {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+li {
+  font-size: 1.7rem;
+}
+
+td {
+  font-size: 1.7rem;
+}
+
+table {
+  margin-left: 200px;
+}
+
+.footer-copyright {
+  font-size: 2rem;
+}
+
+.footer-link-img {
+  height: 3rem;
+  margin-left: 2%;
+  /* margin-top: 50px; */
+}
+
+.footer-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-row {
+  background-color: #9ec9cf;
+  height: 460px;
+}
+
+.navbar-toggler {
+  width: 90px;
+  height: 70px;
+}
 }
